@@ -36,6 +36,8 @@ body {
   color: #d64933;
 }
 
+.btn-primary,
+.btn-secondaryб
 .shadow {
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
 }
@@ -66,20 +68,19 @@ body {
 .card {
   padding: 2rem;
   background: white;
-  border-radius: 8px;
 }
 
 .card-narrow {
   width: 200px;
 }
 
-.card-image {
-  padding: 0;
-  width: 400px;
-  height: 250px;
-  border-radius: 5px;
-  object-fit: cover;
-}
+/*.card-image {*/
+  /*padding: 0;*/
+  /*width: 400px;*/
+  /*height: 250px;*/
+  /*border-radius: 5px;*/
+  /*object-fit: cover;*/
+/*}*/
 
 .standard-border {
   border: 1px solid #58a4b0;
@@ -93,7 +94,6 @@ body {
   width: 100%;
   padding: 8px;
   box-sizing: border-box;
-  border-radius: 8px;
 }
 
 .fancy-input:focus {
@@ -108,8 +108,11 @@ body {
   width: 100px;
   height: 36px;
   line-height: 36px;
+}
+
+
+button, input, .border-rounding {
   border-radius: 8px;
-  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 .btn-primary {
@@ -142,6 +145,9 @@ body {
   margin-left: 0.5rem;
 }
 
+.p-0 {
+  padding: 0;
+}
 .p-t {
   padding-top: 1rem;
 }
@@ -170,7 +176,6 @@ body {
   position: fixed;
   top: 0;
   padding: 0 10px;
-  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 .navigation-item {
