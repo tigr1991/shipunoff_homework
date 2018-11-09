@@ -137,9 +137,6 @@ button, input, .border-rounding {
   margin-left: 0.5rem;
 }
 
-.p-0 {
-  padding: 0;
-}
 .p-t {
   padding-top: 1rem;
 }
@@ -150,14 +147,6 @@ button, input, .border-rounding {
 
 .w-m {
   width: 24rem;
-}
-
-.w-s {
-  width: 16rem;
-}
-
-.w-xs {
-  width: 8rem;
 }
 
 .navigation {
