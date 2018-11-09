@@ -8,11 +8,6 @@ body {
   align-items: center;
 }
 
-.row-center {
-  justify-content: center;
-
-}
-
 .text-title {
   font-family: "Gloria Hallelujah";
 }
@@ -58,7 +53,7 @@ body {
 
 .container {
   margin: auto;
-  max-width: 1200px;
+  max-width: 800px;
   height: 50%;
 }
 
